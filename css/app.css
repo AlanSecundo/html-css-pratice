@@ -1,0 +1,115 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+#header{
+    padding: 1em 0;
+}
+
+#header .nav {
+    text-align: right;
+}
+
+#header .nav a {
+    text-decoration: none;
+    padding: 0 1em;
+    color: #292929;
+}
+
+#content{
+    padding: 0 0 4em 0;
+    text-align: center;
+}
+
+#header .bg {
+    background: linear-gradient(#E9EEF2, #f4f4f4);
+    margin: 2em 0;
+    min-height: 400px;
+    text-align: center;
+}
+
+#header .bg h1 {
+    font-size: 3em;
+    padding: 4em 0 0 0;
+}
+
+#container h4 {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+#container p {
+    padding: 1.5em;
+}
+
+.btn {
+    padding: 12px 15px;
+    border-radius: 30px;
+    background: #ececec;
+    border: 1px solid #ececec;
+}
+
+.btn.btn-blue {
+    background-color: #267df4;
+    color: #fff;
+    border: 1px solid #267df4;
+}
+
+.btn.btn-block{
+    display: block;
+    width: 100%;
+}
+
+.image-responsive{
+    max-width: 100%;
+}
+
+.right {
+    float: right;
+    transform: scaleX(-1);
+}
+
+.right .text {
+    transform: scaleX(-1);
+}
+
+.left {
+    float: left;
+}
+
+#contact {
+    background: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 1em;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    padding: 0.2em 0.5em;
+    border: 1px solid #cecece;
+    border-radius: 0.2em;
+}
+
+#footer {
+    background: #333;
+    color: #fff;
+}
+
+#footer nav {
+    text-align: right;
+    margin: 1em;
+}
+
+#footer nav a{
+    color: #fff;
+    padding: 0.8em;
+}
+
+#footer nav a:hover{
+    text-decoration: underline;
+}

@@ -12,7 +12,11 @@
 .half {
     width: 100%;
 }
-
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+}
 @media only screen and (min-width: 800px) {
     .one {
         width: 100%;

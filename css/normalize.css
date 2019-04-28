@@ -25,6 +25,15 @@ button,
 
 textarea {
     overflow: auto;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-size: 1em;
 }
 
 [hidden] {
